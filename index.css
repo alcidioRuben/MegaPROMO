@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(157, 157, 172);
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    box-shadow: 5px 5px 100px rgb(0, 5, 5);
+    padding: 10px;
+    background-color: rgb(255, 254, 253);
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 4px solid;
+    margin: 10px;
+    height: 40px;
+}
+.Corpo2 {
+    display: grid;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    box-shadow: -15px 8px 8px black;
+    padding: 10px;
+    margin: 30px;
+
+}
+.Corpo {
+    display: grid;
+    padding: 10px;
+    margin: 30px;
+
+}
+.CampoDeTexto {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid red;
+
+}
+.Dados {
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding: 3px;
+    max-width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(255, 0, 0);
+}
+.BotaoEntar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px;
+    width: 300px;
+    color: blue;
+    font-weight: 1000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px red;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid red;
+}
+.BotaoEntar2 {
+    margin-top: 5px;
+    padding: 15px;
+    width: 300px;
+    color: red;
+    font-weight: 1000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px blue;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid blue;
+}
+.BotaoEntar2:hover {
+    background-color: blue;
+}
+.BotaoEntar:hover {
+    background-color: red;
+}
+.BotaoIscreva:hover {
+    background-color: blue;
+}
+
+.BotaoIscreva {
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    color: red;
+    font-weight: 1000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px blue;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(0, 4, 255);
+}
+.Vodacom {
+    color: red;
+    font-weight: bold;
+    font-size: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    max-width: 39px;
+    text-align: center;
+    margin-left: 5px;
+}
+.paragrafo,.paragrafo1 ,.paragrafo2{
+    color: blue;
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px;
+}
+.paragrafo1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+}
+.paragrafo2 {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+.texto {
+    margin: 50px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.info {
+    margin: 50px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+h3 {
+    color: blue;
+}
+.principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.BotaoPrincipal {
+    font-weight: 1000;
+    padding: 10px;
+    box-shadow: 0px 8px 0px rgb(17, 0, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid red;
+    border-radius: 60px;
+}
+.BotaoPrincipal:hover {
+    color: red;
+}
+.internet {
+    display: flex;
+    width: auto;
+    color: red;
+    font-weight: 1000;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 4px 1px red;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+.comprar {
+    box-shadow: 4px 4px 1px black;
+    background-color:white;
+    color: rgb(132, 6, 6);
+    border: 2px solid red;
+    font-weight: 1000;
+    border-radius: 10px;
+    padding: 10px;
+}
+.comprar:hover {
+    background-color:rgb(157, 157, 172);
+
+}
+.MB {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 2px 3px 0px rgb(0, 0, 0);
+}
+.semanal {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 2px 3px 0px red;
+
+}
+.info3 {
+    margin: 30px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.texto3 {
+    margin: 30px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.pacotes {
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+}
+.Pacotes {
+    margin-top: 10px;
+    padding: 10px;
+    border-top:1px solid red ;
+    border-bottom:1px solid red ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.Dicas {
+    color: white;
+    font-size: 12px;
+}
+.image {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.599);
+    padding: 10px;
+    margin: 10px;
+    height: 720px;
+    border-radius: 10px;
+}
+.ligar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 40px;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+}
+.botao {
+    font-size: 16px;
+    padding: 2px;
+}
+.preco {
+    margin: 10px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    background-color: rgb(135, 0, 0);
+}
+.Preco1 {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    border-radius: 10px;
+    height: auto;
+}
+.Diario {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.DiarioIP {
+    border-radius: 10px;
+    width: 80px;
+    box-shadow: 1px 1px 1px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color:white;
+}
+.Obter {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.ILIMITADOIP {
+    border-radius: 10px;
+    width: auto;
+    box-shadow: 1px 1px 1px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color:white;
+}
+.image1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.599);
+    padding: 10px;
+    margin: 10px;
+    height: 1750px;
+    border-radius: 10px;
+}
+.DiarioIP:hover{
+    background-color: white;
+}
